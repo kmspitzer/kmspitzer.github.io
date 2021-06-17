@@ -13,6 +13,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --light-color:          #dad4d4;
+    --bg-gray-color:        rgb(228, 228, 228);
 
     --gray-color:           #909090;
     --link-color:           #404040;
@@ -324,6 +325,36 @@ https://www.tooplate.com/view/2119-gymso-fitness
     position: relative;
   }
 
+  /*---------------------------------------
+     SKILLS               
+  -----------------------------------------*/
+
+  #skills {
+    background-color:rgb(228, 228, 228);
+  }
+
+  #skills svg {
+    color: var(--code-color);
+    display: block;
+    margin: auto;
+  }
+
+  .skills-list {
+    border-radius: 0 0 2px 2px;
+    padding: 1rem 2rem;
+    position: relative;
+    height: 350px;
+  }
+
+  .skills-list p {
+    text-align: center;
+    line-height: 0.5;
+  }
+
+  .lead-space {
+    margin-top: 20px;
+  }
+ 
 
   /*---------------------------------------
      PROJECTS               
