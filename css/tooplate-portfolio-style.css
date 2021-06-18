@@ -369,6 +369,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     height: 350px;
   }
 
+  .project-desc {
+    margin-bottom: 20px;
+  }
+
   .project-thumb img {
     width: 100%;
     height: 200px;
@@ -484,6 +488,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
+  @media screen and (max-width: 1400px) {
+    .project-info {
+      height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .project-info {
+      height: 550px;
+    }
+  }
+
 
   @media screen and (max-width: 992px) {
 
@@ -511,6 +527,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .modal-content {
       padding: 2rem;
     }
+
+    .project-info {
+      height: 350px;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -526,5 +546,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .contact h2 span {
       display: block;
+    }
+
+    .project-info {
+      height: 350px;
     }
   }
